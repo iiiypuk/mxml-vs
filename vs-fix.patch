@@ -1,0 +1,11 @@
+--- mxml-2.10\mxml-file.c	Mon Jun 13 03:51:16 2016
++++ mxml-file.c	Tue Nov 08 20:09:54 2016
+@@ -18,7 +18,7 @@
+  * Include necessary headers...
+  */
+ 
+-#ifndef WIN32
++#ifndef _WIN32
+ #  include <unistd.h>
+ #endif /* !WIN32 */
+ #include "mxml-private.h"
